@@ -7,11 +7,13 @@ html {
     font-size: 62.5%;
 }
 body {
-    height: 100vh;
+    max-height: max-content;
     width: 100%;
+    padding-bottom: 150px;
+    position: relative;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background: linear-gradient(270deg, #774936, #9d6b53, #8a5a44);
+        background: linear-gradient(270deg, #774936, #a55530, #8a5a44);
         background-size: 600% 600%;
     
         -webkit-animation: AnimationName 30s ease infinite;
@@ -52,7 +54,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
-header{
+.header-and-footer{
     background-color: #2b0504;
     color: #cfd2cd;
     display: flex;
@@ -61,18 +63,47 @@ header{
     justify-content: space-around;
     padding: 15px;
     font-size: 2.4rem;
-    gap: 15 px;
 }
 main {
-    height: 300px;
-    margin-top: 25px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #141414;
+    font-size: 2rem;
+}
+main p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #141414;
+    font-size: 2rem;
+}
+main button {
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 15px;
+
 }
 
 .Api-request--dogimg{
-    border: #cfd2cd solid 4.5px;
-    border-radius: 35px;
-    min-width: 260px;
-    max-width: 432px;
+    border: 4px solid #ccc;
+    background-color: #2b0504;
+    padding: 10px;
+    width: 80em;
     height: auto;
+    border-radius: 35px;
     margin:  20px;
+}
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:80px;   /* Height of the footer */
 }
