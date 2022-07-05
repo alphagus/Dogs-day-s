@@ -65,6 +65,7 @@ header{
 }
 main {
     height: 300px;
+    margin-top: 25px;
 }
 
 .Api-request--dogimg{
