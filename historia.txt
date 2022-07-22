@@ -1,0 +1,2 @@
+estamos agregando colaboradores (soy yo mismo) cada uno se va a encargar de una parte difente del proyecto, uno para el header y otro para el footer.
+
