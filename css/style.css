@@ -54,7 +54,8 @@ body {
 		background-position: 0% 50%;
 	}
 }
-.header-and-footer{
+.header-just-header{
+    height: 100px;
     background-color: #2b0504;
     color: #cfd2cd;
     display: flex;
@@ -64,6 +65,16 @@ body {
     padding: 15px;
     font-size: 2.4rem;
 }
+.header-img--logo{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url("./");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 main {
     height: auto;
     display: flex;
