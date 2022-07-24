@@ -56,23 +56,32 @@ body {
 }
 .header-just-header{
     height: 100px;
+    width: 100%;
     background-color: #2b0504;
     color: #cfd2cd;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
     padding: 15px;
     font-size: 2.4rem;
+  
+    
 }
 .header-img--logo{
-    display: inline-block;
+    display: block;
     width: 80px;
     height: 80px;
-    background-image: url("./");
+    background-image: url("../img/pet.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    filter: invert(1);
+    margin: 0 auto;
+}
+h1 {
+    
+    text-align: center;
+
 }
 
 main {
