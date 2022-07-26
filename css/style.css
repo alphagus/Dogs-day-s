@@ -130,8 +130,13 @@ main button {
     margin:  20px;
 }
 footer {
+    align-self: center;
     position:absolute;
+    display: flex;
     bottom:0;
     width:100%;
     height:45px;   /* Height of the footer */
+    background-color: #2b0504;
+    color: #ccc;
+    justify-content: center;
 }
