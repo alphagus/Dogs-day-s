@@ -1,3 +1,7 @@
+root{
+    /* colors  */
+    
+}
 * {
     margin: 0;
     padding: 0;
@@ -76,11 +80,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     filter: invert(1);
-    margin: 0 auto;
 }
 h1 {
-    
     text-align: center;
+    padding: 0px 60px;
 
 }
 
